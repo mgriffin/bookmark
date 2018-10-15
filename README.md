@@ -11,3 +11,24 @@ This makes for an impossible to read list, so they should really be stored somew
 
 This is a really rough and ready script to store a local copy of a page along with some metadata.
 It works for me, it might also work for you.
+
+### How?
+
+Add a bookmark by running:
+
+```
+./bookmark.sh <URL>
+```
+
+You can then view the latest additions by running:
+
+```
+./view.sh
+```
+
+And from there, pick one to open by running:
+
+```
+./view.sh <NUMBER>
+```
+
